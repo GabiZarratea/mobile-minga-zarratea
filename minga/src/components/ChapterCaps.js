@@ -4,7 +4,6 @@ import { useDispatch, useSelector } from 'react-redux';
 import commentActions from '../../redux/actions/comment';
 import ListComments from './ListComments';
 import { useNavigation } from '@react-navigation/native';
-import Chapters from '../views/Chapters';
 
 const ChapterCaps = ({ chapter }) => {
 
